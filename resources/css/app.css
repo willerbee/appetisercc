@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*! purgecss start ignore */
+.vdp-datepicker__calendar {
+    @apply shadow-lg
+}
+
+.vdp-datepicker input[type='text'] {
+    @apply border-gray-200 rounded-md border p-1
+}
+/*! purgecss end ignore */
